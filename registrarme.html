@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Registrarme</title>
+</head>
+
+<body>
+    <header>
+        <p class="BarDiscount">20% de descuento en todos los productos!</p>
+        <p class="parrafo1">Nombre de tiendas</p>
+        <div>
+            <nav class="menuNav">
+                <a href="">Contacto</a>
+                <a href="registrarme.html">Registrarme</a>
+                <a href="index.html">Ingresar</a>
+            </nav>
+        </div>
+    </header>
+   <main class="main">
+   <!-- Formulario -->
+   <section class="containerForm">
+            <h2>Añadí tu super!</h2>
+            <p>Agrega tu personaje favorito completando las opciones</p>
+            <form class="form">
+                <div class="formEntry">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="formEntry">
+                    <label for="especie">Especie</label>
+                    <select name="especie" id="especie">
+                        <option selected value="">Metahumano</option>
+                        <option value="">Humano</option>
+                        <option value="">Alienígena</option>
+                    </select>
+                </div>
+                <div class="formEntry">
+                    <label for="date">Fecha</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="formEntry">
+                    <label for="photo">Agregar foto</label>
+                    <input type="file" id="photo" name="photo">
+                    
+                </div>
+                <div class="formEntry">
+                    <textarea  placeholder="Descripcion" cols="5" rows="15"></textarea>
+                </div>
+                <div class="formEntry">
+                    <h3>PODERES</h3>
+                    <div class="formEntryOptions">
+                        <input type="checkbox" id="optionA">
+                        <label for="optionA">Volar</label>
+                    </div>
+                    <div class="formEntryOptions">
+                        <input type="checkbox" id="optionB">
+                        <label for="optionB">Superinteligencia</label>
+                    </div>
+                    <div class="formEntryOptions">
+                        <input type="checkbox" id="optionC">
+                        <label for="optionC">Vista de rasho laser</label>
+                    </div>
+                    <div class="formEntryOptions">
+                        <input type="checkbox" id="optionD">
+                        <label for="optionD">Billetera gorda</label>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <h3>TIPO DE PERSONAJE</h3>
+                    <div class="formEntryOptions">
+                        <input type="radio" id="villano" name="tipo">
+                        <label for="villano">Villano/Villana</label>
+                    </div>
+                    <div class="formEntryOptions">
+                        <input type="radio" id="heroe" name="tipo">
+                        <label for="heroe">Héroe/Heroína</label>
+                    </div>
+                </div>
+                <div class="formButton">
+                    <button>Añadir</button>
+                </div>
+            </form>
+        </section>
+  </main>  
+    <footer class="footer">
+    <p>Todos los derechos reservados a FRONT END 1</p>
+  </footer>
+</body>
+</html>
